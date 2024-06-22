@@ -127,7 +127,7 @@ function FeedFish() {
           Alimentar Pez
         </h2>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center max-w-xl mx-auto">
         {schedules.map((schedule, index) => (
           <div key={index} className="my-2 flex items-center">
             <label
